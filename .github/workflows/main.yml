@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@v3
       - name: Generate Zip
         run: |
-          zip deployment.zip lambda/*.py 
+          zip deployment.zip my_lambda/*.py 
       - name: default deploy
         uses: appleboy/lambda-action@v0.1.9
         with:
