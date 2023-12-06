@@ -1,4 +1,4 @@
-from log import log
+from my_lambda.log import log
 import json
 
 def lambda_handler(event, context):   
